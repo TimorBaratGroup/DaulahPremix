@@ -16,12 +16,12 @@ export const Wrapper = styled.div`
     margin: 0 8vw 0 3vw;
   }
 
-  @media (max-width: 460px) {
-    height: 10vh;
+  @media (max-width: 480px) {
+    height: 9vh;
 
     div {
-      width: 90vw;
-      margin: 0;
+      width: 82vw;
+      margin: auto 0;
     }
   }
 `
