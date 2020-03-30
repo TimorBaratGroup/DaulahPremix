@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   }
 
   @media (max-width: 480px) {
-    padding: 28rem 0 0 0;
+    padding: 30rem 0 0 0;
 
     h2 {
       font-size: 2rem;
