@@ -26,7 +26,7 @@ export const Products = () => {
   return (
     <Wrapper id="products">
       <h2>OUR PRODUCTS</h2>
-      <SkillsWrapper as={Container}>
+      <SkillsWrapper>
         {data.allContentfulProduct.edges.map((edge, i) => {
           return (
             <ul>

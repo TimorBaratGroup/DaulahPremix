@@ -25,6 +25,19 @@ export const Jumbotron = styled.div`
     top: 25vw;
     left: 18vw;
   }
+
+  @media (max-width: 420px) {
+    top: 36vw;
+    left: 10vw;
+
+    h1 {
+      font-size: 6.5vw;
+
+      p {
+        font-size: 5vw;
+      }
+    }
+  }
 `
 
 export const AboutWrapper = styled.div`
@@ -64,6 +77,17 @@ export const AboutWrapper = styled.div`
 
   @media (max-width: 480px) {
     flex-direction: column;
+    top: 65vw;
+
+    h1 {
+      font-size: 4vw;
+      margin: 1rem;
+      text-align: center;
+    }
+    p {
+      font-size: 3.5vw;
+      margin: 0 1rem 1rem 1rem;
+    }
   }
 `
 
@@ -74,6 +98,16 @@ export const AboutUs = styled.div`
 
   @media (max-width: 1350px) {
     width: 25vw;
+
+    @media (max-width: 1024px) {
+      height: 25vw;
+
+      @media (max-width: 480px) {
+        width: 80vw;
+        height: 30vw;
+        margin-bottom: 1rem;
+      }
+    }
   }
 `
 
@@ -84,6 +118,16 @@ export const Quarry = styled.div`
 
   @media (max-width: 1350px) {
     width: 25vw;
+
+    @media (max-width: 1024px) {
+      height: 25vw;
+
+      @media (max-width: 480px) {
+        width: 80vw;
+        height: 50vw;
+        margin-bottom: 1rem;
+      }
+    }
   }
 `
 
@@ -94,32 +138,16 @@ export const Location = styled.div`
 
   @media (max-width: 1350px) {
     width: 25vw;
-  }
-`
 
-export const Details = styled.div`
-  flex: 1;
-  padding-left: 2rem;
+    @media (max-width: 1024px) {
+      height: 25vw;
 
-  @media (max-width: 960px) {
-    padding-left: unset;
-    width: 100%;
-  }
-
-  h1 {
-    margin-bottom: 2rem;
-    font-size: 24pt;
-    color: #212121;
-    text-align: left;
-  }
-
-  p {
-    margin-bottom: 2.5rem;
-    font-size: 18pt;
-    font-weight: normal;
-    line-height: 1.8;
-    color: #707070;
-    text-align: left;
+      @media (max-width: 480px) {
+        width: 80vw;
+        height: 55vw;
+        margin-bottom: 1rem;
+      }
+    }
   }
 `
 
@@ -133,5 +161,9 @@ export const Thumbnail = styled.div`
 
   img {
     width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 18vw;
   }
 `

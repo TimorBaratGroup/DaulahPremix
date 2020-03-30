@@ -19,8 +19,8 @@ export const Location = () => {
               json
             }
             image {
-              fixed(width: 950) {
-                ...GatsbyContentfulFixed
+              fluid(maxWidth: 950, quality: 100) {
+                ...GatsbyContentfulFluid
               }
             }
           }
@@ -39,10 +39,11 @@ export const Location = () => {
                 href={edge.node.description}
                 target="_blank"
                 rel="noopener norefferer"
+                objectFit="cover"
               >
                 <Img
                   key={i}
-                  fixed={edge.node.image.fixed}
+                  fluid={edge.node.image.fluid}
                   alt={edge.node.imageTitle}
                 />
               </a>

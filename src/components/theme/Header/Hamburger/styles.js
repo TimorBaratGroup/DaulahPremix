@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   z-index: 5;
-  top: 1.6rem;
+  top: 2.3rem;
   right: 1.8rem;
   display: none;
   cursor: pointer;
@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
     sidebar &&
     `
 			right: 18%;
-			top: 1.4rem;
+			top: 2.3rem;
 		
 			@media (max-width: 960px) {
 				right: 3%;

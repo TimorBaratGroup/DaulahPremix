@@ -5,8 +5,13 @@ export const Wrapper = styled.div`
   align-items: flex-start;
   background-color: #2c2d31;
 
-  @media (max-width: 960px) {
+  @media (max-width: 1899px) {
     flex-direction: column;
+    height: 250vh;
+
+    @media (max-width: 480px) {
+      height: 90vh;
+    }
   }
 `
 
@@ -16,19 +21,27 @@ export const Maps = styled.div`
   height: 90vh;
   flex-wrap: wrap;
 
-  @media (max-width: 960px) {
+  @media (max-width: 1899px) {
     width: 100%;
     margin-bottom: 2rem;
-    flex-direction: column;
   }
 
   div {
+    width: 100vh;
     img:last-child {
       margin-left: 0.15vw;
 
       @media (max-width: 1903px) {
         margin-left: unset;
+
+        @media (max-width: 420px) {
+          margin-bottom: 2rem;
+        }
       }
+    }
+
+    @media (max-width: 1899px) {
+      width: 100vw;
     }
   }
 `
@@ -48,5 +61,20 @@ export const Address = styled.div`
   p {
     font-weight: bold;
     font-size: 1vw;
+  }
+
+  @media (max-width: 620px) {
+    width: 5vw;
+    margin: 0;
+    padding: 1rem;
+
+    h5 {
+      font-size: 4vw;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 3.5vw;
+    }
   }
 `

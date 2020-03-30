@@ -16,6 +16,12 @@ export const Wrapper = styled.div`
   @media (max-width: 680px) {
     padding: 10rem 0 10rem 0;
   }
+
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
 `
 
 export const SkillsWrapper = styled.div`
@@ -23,9 +29,13 @@ export const SkillsWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+
+  @media (max-width: 1024px) {
+    padding: 4rem;
+  }
 
   @media (max-width: 960px) {
     flex-direction: column;
+    padding: 0;
   }
 `

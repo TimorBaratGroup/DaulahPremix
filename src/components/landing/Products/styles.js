@@ -39,8 +39,18 @@ export const Wrapper = styled.div`
     height: 35px;
   }
 
-  @media (max-width: 680px) {
-    padding: 10rem 0 10rem 0;
+  @media (max-width: 480px) {
+    padding: 8rem 0 0 0;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      text-align: center;
+      padding: 0.5rem 0 0 0;
+      height: 17px;
+    }
   }
 `
 
@@ -51,7 +61,8 @@ export const SkillsWrapper = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
 
-  @media (max-width: 960px) {
+  @media (max-width: 1065px) {
     flex-direction: column;
+    padding: 0;
   }
 `
