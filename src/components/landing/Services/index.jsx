@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container } from '../index.js'
+import { Container } from '../../common/index.js'
 import { graphql, useStaticQuery } from 'gatsby'
-import { Wrapper, CardBox, Grid } from './styles.js'
+import { Wrapper, Grid } from './styles.js'
 import Img from 'gatsby-image'
 
 export const Services = () => {

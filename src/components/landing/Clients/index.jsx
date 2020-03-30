@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from '../index.js'
+import { Container } from '../../common/index.js'
 import { Wrapper, SkillsWrapper } from './styles'
 import { graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'

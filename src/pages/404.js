@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout, SEO } from '../components/common/index'
+import { Layout, SEO } from '../components/common/index.js'
 
 export default () => (
   <Layout>

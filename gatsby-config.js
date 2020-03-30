@@ -23,10 +23,22 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Timor Barat Batu`,
+        short_name: `TBB`,
+        description: `We provide granite aggregates crushed to different sizes to meet our client\'s requirements.`,
+        lang: `en`,
+        display: `standalone`,
+        icon: `static/favicon/favicon.png`,
+      },
     },
   ],
 }

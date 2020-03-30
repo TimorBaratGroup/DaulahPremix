@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import { Container } from '../../../common'
+import { Container } from '../../../common/index.js'
 import NavbarLinks from '../NavbarLinks'
 import { Wrapper } from './styles'
 import Img from 'gatsby-image'
