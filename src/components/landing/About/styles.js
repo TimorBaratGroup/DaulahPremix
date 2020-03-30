@@ -26,8 +26,8 @@ export const Jumbotron = styled.div`
     left: 18vw;
   }
 
-  @media (max-width: 420px) {
-    top: 36vw;
+  @media (max-width: 480px) {
+    top: 35vw;
     left: 10vw;
 
     h1 {
@@ -164,6 +164,6 @@ export const Thumbnail = styled.div`
   }
 
   @media (max-width: 480px) {
-    margin-top: 18vw;
+    margin-top: 16vw;
   }
 `
