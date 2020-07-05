@@ -26,7 +26,7 @@ export const Grid = styled.div`
   margin: 2.5rem 3rem;
 
   div {
-    width: 20rem;
+    width: 25rem;
     height: 20rem;
     text-align: center;
 

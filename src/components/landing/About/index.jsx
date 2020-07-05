@@ -44,7 +44,7 @@ export const About = () => {
         <AboutUs>
           <h1>About Us</h1>
           <p>
-            Timor Barat Batu was established in the year 1972. We are a granite
+            Daulah Premix was established in the year 1972. We are a granite
             quarry located in Pulai Chondong, Kelantan.
           </p>
         </AboutUs>

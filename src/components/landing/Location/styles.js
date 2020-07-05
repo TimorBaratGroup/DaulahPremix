@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     height: 250vh;
 
     @media (max-width: 480px) {
-      height: 100vh;
+      height: 130vh;
     }
   }
 `
@@ -27,9 +27,10 @@ export const Maps = styled.div`
   }
 
   div {
-    width: 100vh;
+    width: 49vw;
+
     img:last-child {
-      margin-left: 0.15vw;
+      margin-left: 0.75vw;
 
       @media (max-width: 1903px) {
         margin-left: unset;
@@ -46,9 +47,8 @@ export const Maps = styled.div`
   }
 `
 export const Address = styled.div`
-  background-color: #ffffff;
-  color: #606060;
-  width: 25vw;
+  color: #ffffff;
+  width: 24vw;
   padding: 1.5rem;
   margin: 2rem auto;
 
@@ -64,12 +64,14 @@ export const Address = styled.div`
   }
 
   @media (max-width: 620px) {
+    background-color: #ffffff;
+    color: #606060;
     width: 5vw;
     margin: 0;
     padding: 1rem;
 
     h5 {
-      font-size: 4vw;
+      font-size: 5vw;
     }
 
     p {

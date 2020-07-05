@@ -24,6 +24,6 @@ export const Details = styled.div`
 
   @media (max-width: 480px) {
     width: 80vw;
-    font-size: 10px;
+    font-size: 12px;
   }
 `
