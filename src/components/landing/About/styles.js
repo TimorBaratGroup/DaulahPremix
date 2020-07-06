@@ -92,7 +92,7 @@ export const AboutWrapper = styled.div`
 `
 
 export const AboutUs = styled.div`
-  background: #00005b;
+  background: #eb7f0f;
   width: 20vw;
   height: 35vh;
 
@@ -112,7 +112,7 @@ export const AboutUs = styled.div`
 `
 
 export const Quarry = styled.div`
-  background: #00007a;
+  background: #f58b11;
   width: 20vw;
   height: 35vh;
 
@@ -132,7 +132,7 @@ export const Quarry = styled.div`
 `
 
 export const Location = styled.div`
-  background: #000099;
+  background: #f79912;
   width: 20vw;
   height: 35vh;
 
