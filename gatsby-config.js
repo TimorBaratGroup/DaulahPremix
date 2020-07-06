@@ -17,7 +17,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Timor Barat Batu',
+    title: 'Daulah Premix',
   },
   plugins: [
     'gatsby-transformer-remark',
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Timor Barat Batu`,
-        short_name: `TBB`,
+        name: `Daulah Premix`,
+        short_name: `DP`,
         description: `We provide granite aggregates crushed to different sizes to meet our client\'s requirements.`,
         lang: `en`,
         display: `standalone`,

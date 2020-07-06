@@ -1,10 +1,10 @@
 {
-  "name": "timor-barat-batu",
-  "description": "Timor Barat Batu official website",
+  "name": "daulah-premix",
+  "description": "Daulah Premix official website",
   "version": "1.0.0",
   "author": "Keng Sheng Lee <ks@myprimosolutions.com>",
   "bugs": {
-    "url": "https://github.com/TimorBaratGroup/timorbaratbatu/issues"
+    "url": "https://github.com/TimorBaratGroup/DaulahPremix/issues"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
@@ -40,7 +40,7 @@
     "rimraf": "^2.6.3",
     "yargs-parser": "^13.1.2"
   },
-  "homepage": "https://github.com/TimorBaratGroup/timorbaratbatu",
+  "homepage": "https://github.com/TimorBaratGroup/DaulahPremix",
   "keywords": [
     "gatsby",
     "contentful"
@@ -49,7 +49,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimorBaratGroup/timorbaratbatu.git"
+    "url": "git+https://github.com/TimorBaratGroup/DaulahPremix.git"
   },
   "scripts": {
     "dev": "npm run develop",
