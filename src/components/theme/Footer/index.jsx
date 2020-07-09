@@ -4,8 +4,8 @@ import { Wrapper, Details } from './styles'
 export const Footer = () => (
   <Wrapper>
     <Details>
-      Copyright © {new Date().getFullYear()} Timor Barat Batu Sdn Bhd. All
-      rights reserved.
+      Copyright © {new Date().getFullYear()} Daulah Premix Sdn Bhd. All rights
+      reserved.
     </Details>
   </Wrapper>
 )

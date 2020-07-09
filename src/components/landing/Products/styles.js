@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
       bottom: 0;
       left: 0;
       right: 100%;
-      background: #000099;
+      background: #f58b11;
       z-index: 0;
       -moz-transition: 0.3s all ease;
       -o-transition: 0.3s all ease;
