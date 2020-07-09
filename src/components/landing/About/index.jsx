@@ -30,6 +30,7 @@ export const About = () => {
       }
       allContentfulHeader(
         filter: { header: { in: ["header1", "header2", "header3"] } }
+        sort: { fields: header, order: ASC }
       ) {
         edges {
           node {
